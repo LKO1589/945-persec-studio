@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>945 Persec Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans+Thai:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <a class="logo" href="/">945 Persec Studio</a>
+  </header>
+
+  <main>
+    <section class="cat-hero">
+      <a href="/" class="back">← ทั้งหมด</a>
+      <h1 id="catName">&nbsp;</h1>
+      <p class="prose" id="catDesc"></p>
+      <p class="price big" id="catPrice"></p>
+    </section>
+    <section class="gallery" id="gallery"></section>
+  </main>
+
+  <footer class="site-footer" id="contact"></footer>
+
+  <dialog class="lightbox" id="lightbox">
+    <button class="lb-close" aria-label="ปิด">×</button>
+    <button class="lb-prev" aria-label="ก่อนหน้า">‹</button>
+    <figure>
+      <img id="lbImg" alt="">
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+    <button class="lb-next" aria-label="ถัดไป">›</button>
+  </dialog>
+
+  <script type="module" src="/assets/js/category.js"></script>
+</body>
+</html>
